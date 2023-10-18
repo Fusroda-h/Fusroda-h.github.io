@@ -107,17 +107,18 @@ content:
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in 3D computer vision some of my other interests and hobbies are:
       - Bowling
-      - Skiing/ Snowboarding
+      - Skiing / Snowboarding
       - [Poppin dance](https://youtu.be/GqwMzhZMgqU?si=i5qMRqiGeO8rJh2R)
 
       Cool experiences I have tried
       - Free diving
       - Surfing
       - Sports climing
-      ![Biking](images/personal/bike.jpg "Biking")
-      ![Diving1](images/personal/diving.jpg "Diving1")
-      ![Diving2](images/personal/diving2.jpg "Diving2")
-      ![Skiing](images/personal/skiing.jpg "Skiing")
+
+      ![Biking](images/personal/bike.jpg =x250 "Biking")
+      ![Diving1](images/personal/diving.jpg =x250 "Diving1")
+      ![Diving2](images/personal/diving2.jpg =x250 "Diving2")
+      ![Skiing](images/personal/skiing.jpg =x250 "Skiing")
 
 # Footer
 footer_show_references: true
