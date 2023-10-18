@@ -115,10 +115,10 @@ content:
       - Surfing
       - Sports climing
 
-      ![Biking](images/personal/bike.jpg "Biking"){:width="200px"}
-      ![Diving1](images/personal/diving.jpg "Diving1")
-      ![Diving2](images/personal/diving2.jpg "Diving2")
-      ![Skiing](images/personal/skiing.jpg "Skiing")
+      ![Biking](images/personal/bike.jpg "Biking"){:width="250px"}
+      ![Diving1](images/personal/diving.jpg "Diving1"){:width="250px"}
+      ![Diving2](images/personal/diving2.jpg "Diving2"){:width="250px"}
+      ![Skiing](images/personal/skiing.jpg "Skiing"){:width="250px"}
 
 # Footer
 footer_show_references: true
