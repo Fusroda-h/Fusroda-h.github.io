@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Chunghwan Lee
-title: Researcher, [HYU](http://electronic.hanyang.ac.kr/eng/main/index.php)
+title: Researcher, Hanyang University (Seoul, Korea)
 email: jhlee612@hanyang.ac.kr
 website: www.github.com/Fusroda-h/
 
@@ -21,8 +21,8 @@ github_username:  Fusroda-h
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: zzung_h
-linkedin_username: chunghwan lee
+instagram_username: zzung_jh
+linkedin_username: Chunghwan Lee
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -30,10 +30,10 @@ linkedin_username: chunghwan lee
 orcid_username: 0009-0000-5617-1966
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,7 +48,8 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Chunghwan and I'm a graduate student working toward a master's degree at [Hy-vision](https://sites.google.com/view/hyvision) Lab from HYU.
+  Hi, my name's Chunghwan and I'm a graduate student working toward a master's degree at [Hy-vision](https://sites.google.com/view/hyvision) Lab from Hanyang Universitiy([HYU](http://electronic.hanyang.ac.kr/eng/main/index.php)).
+
   My research interests are "Reconstructing 3D scenes", "Visual localization", "Neural fields in 3D visual computing".
   More information on [CV](documents/cv.pdf)
 
@@ -59,13 +60,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Paired-point lifting
+        link: github.com/Fusroda-h/ppl
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
+          - title:  Fusroda-h/ppl
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: github.com/Fusroda-h/ppl
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -92,27 +93,39 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: Hanyang University(HYU), Seoul, Korea
+        caption: 2022 - Present
+        sub_title: MS Electronic Engineering
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my time in Hy-vision Lab at HYU I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines.
+          I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
+    content:
+      - layout: left
+        title: Hanyang University, Seoul, Korea
+        caption: 2015 - 2022
+        sub_title: BSc Electronic Engineering
+        description: | # this will include new lines to allow paragraphs
+          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines.
+          I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
           I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Alongside my interests in 3D computer vision some of my other interests and hobbies are:
+      - Bowling
+      - Skiing/ Snowboarding
+      - [Poppin dance](https://youtu.be/GqwMzhZMgqU?si=i5qMRqiGeO8rJh2R)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Cool experiences I have tried
+      - Free diving
+      - Surfing
+      - Sports climing
+      ![Trees](images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
