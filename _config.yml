@@ -60,7 +60,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Hanyang University(HYU), Seoul, Korea
+        title: Hanyang University, Seoul, Korea
         caption: 2022 - Present
         sub_title: MS Electronic Engineering
         description: | # this will include new lines to allow paragraphs
@@ -107,6 +107,7 @@ content:
 
             *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023.*
 
+      - layout: top-middle
         title: Deepfake Detection Using Supervised Temporal Feature Extraction Model and LSTM
         link: https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Paired-Point_Lifting_for_Enhanced_Privacy-Preserving_Visual_Localization_CVPR_2023_paper.pdf
         link_text: PPL
@@ -117,6 +118,7 @@ content:
 
             *The Korean Institute of Broadcast and Media Engineers Fall Conference. 2022.*
 
+      - layout: top-middle
         title: Weather Classification and Image Restoration Algorithm Attentive to Weather Conditions in Autonomous Vehicles
         link: https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Paired-Point_Lifting_for_Enhanced_Privacy-Preserving_Visual_Localization_CVPR_2023_paper.pdf
         link_text: PPL
