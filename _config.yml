@@ -113,7 +113,7 @@ content:
         # quote: >
         #   Domestic
         description: | # this will include new lines to allow paragraphs
-            **Chunghwan Lee $^*$ **, Jaihoon Kim$^*$, Kijung Yoon
+            **Chunghwan Lee**, Jaihoon Kim, Kijung Yoon
 
             *The Korean Institute of Broadcast and Media Engineers Fall Conference. 2022.*
 
@@ -121,7 +121,7 @@ content:
         title: Weather Classification and Image Restoration Algorithm Attentive to Weather Conditions in Autonomous Vehicles
         caption: Domestic
         description: | # this will include new lines to allow paragraphs
-            Jaihoon Kim $^*$, **Chunghwan Lee $^*$ **, Sangmin Kim, Jechang Jeong
+            Jaihoon Kim, **Chunghwan Lee**, Sangmin Kim, Jechang Jeong
 
             *The Korean Institute of Broadcast and Media Engineers Fall Conference. 2021.*
 
