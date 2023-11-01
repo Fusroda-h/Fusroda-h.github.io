@@ -94,38 +94,34 @@ content:
   - title: Publication # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: top-left
         title: Paired-Point Lifting for Enhanced Privacy-Preserving Visual Localization
-        link: https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Paired-Point_Lifting_for_Enhanced_Privacy-Preserving_Visual_Localization_CVPR_2023_paper.pdf
-        link_text: PPL
+        # link: https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Paired-Point_Lifting_for_Enhanced_Privacy-Preserving_Visual_Localization_CVPR_2023_paper.pdf
+        # link_text: PPL
         # sub_title: Senior Network System Administrator
         # caption: November 2017 - Present
         quote: >
-          International
+          International, [PPL](https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Paired-Point_Lifting_for_Enhanced_Privacy-Preserving_Visual_Localization_CVPR_2023_paper.pdf)
         description: | # this will include new lines to allow paragraphs
             **Chunghwan Lee**, Jaihoon Kim, Chanhyuk Yun, Je Hyeong Hong
 
             *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023.*
 
-      - layout: top-middle
+      - layout: top-left
         title: Deepfake Detection Using Supervised Temporal Feature Extraction Model and LSTM
-        link: https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Paired-Point_Lifting_for_Enhanced_Privacy-Preserving_Visual_Localization_CVPR_2023_paper.pdf
-        link_text: PPL
         quote: >
           Domestic
         description: | # this will include new lines to allow paragraphs
-            **Chunghwan Lee$^*$**, Jaihoon Kim$^*$, Kijung Yoon
+            **Chunghwan Lee${^*}**, Jaihoon Kim$^*$, Kijung Yoon
 
             *The Korean Institute of Broadcast and Media Engineers Fall Conference. 2022.*
 
-      - layout: top-middle
+      - layout: top-left
         title: Weather Classification and Image Restoration Algorithm Attentive to Weather Conditions in Autonomous Vehicles
-        link: https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Paired-Point_Lifting_for_Enhanced_Privacy-Preserving_Visual_Localization_CVPR_2023_paper.pdf
-        link_text: PPL
         quote: >
           Domestic
         description: | # this will include new lines to allow paragraphs
-            Jaihoon Kim$^*$, **Chunghwan Lee$^*$**, Sangmin Kim, Jechang Jeong
+            Jaihoon Kim${^*}, **Chunghwan Lee${^*}**, Sangmin Kim, Jechang Jeong
 
             *The Korean Institute of Broadcast and Media Engineers Fall Conference. 2021.*
 
