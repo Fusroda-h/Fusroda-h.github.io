@@ -56,6 +56,18 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>Python</mark>, <mark>C/C++</mark>, and <mark>Bowling</mark>
 
 content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Hanyang University(HYU), Seoul, Korea
+        caption: 2022 - Present
+        sub_title: MS Electronic Engineering
+        description: | # this will include new lines to allow paragraphs
+          During my time in Hy-vision Lab at HYU I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines.
+          I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+  
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -71,41 +83,57 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          This codes provides pipeline for localization and query reconstruction from point/line-based maps.
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          The project provides end-to-end evaluation pipeline for the paired-point lifting method implementing a generation of a line cloud and recovering points from lines.
+          Also this provides the codes calculating the relocalization accuracy and recoveries of a scene on query views.
+          We also provide a sample scene built to examine the privacy-preserving performance.
+          The code utilize <mark>PoseLib</mark>, <mark>COLMAP</mark> library.
 
-  - title: Experience # Title for the section
+
+  - title: Publication # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+      - layout: top-middle
+        title: Paired-Point Lifting for Enhanced Privacy-Preserving Visual Localization
+        link: https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Paired-Point_Lifting_for_Enhanced_Privacy-Preserving_Visual_Localization_CVPR_2023_paper.pdf
+        link_text: PPL
+        # sub_title: Senior Network System Administrator
+        # caption: November 2017 - Present
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          International
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            **Chunghwan Lee**, Jaihoon Kim, Chanhyuk Yun, Je Hyeong Hong
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Hanyang University(HYU), Seoul, Korea
-        caption: 2022 - Present
-        sub_title: MS Electronic Engineering
+            *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023.*
+
+        title: Deepfake Detection Using Supervised Temporal Feature Extraction Model and LSTM
+        link: https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Paired-Point_Lifting_for_Enhanced_Privacy-Preserving_Visual_Localization_CVPR_2023_paper.pdf
+        link_text: PPL
+        quote: >
+          Domestic
         description: | # this will include new lines to allow paragraphs
-          During my time in Hy-vision Lab at HYU I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines.
-          I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+            **Chunghwan Lee$^*$**, Jaihoon Kim$^*$, Kijung Yoon
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+            *The Korean Institute of Broadcast and Media Engineers Fall Conference. 2022.*
+
+        title: Weather Classification and Image Restoration Algorithm Attentive to Weather Conditions in Autonomous Vehicles
+        link: https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Paired-Point_Lifting_for_Enhanced_Privacy-Preserving_Visual_Localization_CVPR_2023_paper.pdf
+        link_text: PPL
+        quote: >
+          Domestic
+        description: | # this will include new lines to allow paragraphs
+            Jaihoon Kim$^*$, **Chunghwan Lee$^*$**, Sangmin Kim, Jechang Jeong
+
+            *The Korean Institute of Broadcast and Media Engineers Fall Conference. 2021.*
+
+
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in 3D computer vision some of my other interests and hobbies are:
+      - Working out
       - Bowling
       - Skiing / Snowboarding
 
