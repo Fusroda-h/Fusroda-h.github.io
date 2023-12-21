@@ -50,7 +50,7 @@ about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Chunghwan and I'm a graduate student working toward a master's degree at [Hy-vision](https://sites.google.com/view/hyvision) Lab from Hanyang Universitiy([HYU](http://electronic.hanyang.ac.kr/eng/main/index.php)).
 
-  My research interests are "Reconstructing 3D scenes", "Visual localization", "Neural fields in 3D visual computing".
+  My research interests are "Reconstructing 3D scenes", "Visual localization", "Privacy preservation".
   More information on [CV](documents/cv.pdf)
 
   I am most skilled in: <mark>Python</mark>, <mark>C/C++</mark>, and <mark>Bowling</mark>
@@ -64,8 +64,8 @@ content:
         caption: 2015 - 2022 / 2022 - Present
         sub_title: BSc Electronic Engineering / MS Electronic Engineering
         description: | # this will include new lines to allow paragraphs
-          During my time in Hy-vision Lab at HYU I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines.
-          I thouroughly enjoyed my time at university and learnt a lot about critical review.
+          During my time in Hy-vision Lab at HYU I learnt most of my key skills that have I have taken through my career such as teamworking and meeting tight deadlines.
+          I enjoyed my time at university by learnin a lot about critical reviewing.
 
   
   - title: Projects # Title for the section
