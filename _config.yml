@@ -132,7 +132,11 @@ content:
     content: | # this will include new lines to allow paragraphs
       Alongside my interests in 3D computer vision some of my other interests and hobbies are:
       - Working out
-      - Bowling
+      - Bowling (I have 3 custom bowling balls!)
+
+      ![Bowling](images/personal/bowling1.jpg "Bowling1"){:width="250px"}
+      ![Bowling2](images/personal/bowling2.jpg "Bowling2"){:width="250px"}
+
       - Skiing / Snowboarding
 
       ![Skiing](images/personal/skiing.jpg "Skiing"){:width="250px"}
@@ -140,9 +144,9 @@ content:
       - [Poppin dance](https://youtu.be/GqwMzhZMgqU?si=i5qMRqiGeO8rJh2R)
 
       Cool experiences
-      - Conference
+      - Conference (CVPR23, Vancouver, Canada)
 
-      ![Con1](images/personal/conference_1.jpg "Con1"){:width="250px"}
+      ![Con1](images/personal/conference_1.png "Con1"){:width="250px"}
       ![Con2](images/personal/conference_2.jpg "Con2"){:width="250px"}
       ![Con3](images/personal/conference_3.jpg "Con3"){:width="250px"}
 
