@@ -61,11 +61,11 @@ content:
     content:
       - layout: left
         title: Hanyang University, Seoul, Korea
-        caption: 2022 - Present
-        sub_title: MS Electronic Engineering
+        caption: 2015 - 2022 / 2022 - Present
+        sub_title: BSc Electronic Engineering / MS Electronic Engineering
         description: | # this will include new lines to allow paragraphs
           During my time in Hy-vision Lab at HYU I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines.
-          I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          I thouroughly enjoyed my time at university and learnt a lot about critical review.
 
   
   - title: Projects # Title for the section
@@ -139,16 +139,21 @@ content:
 
       - [Poppin dance](https://youtu.be/GqwMzhZMgqU?si=i5qMRqiGeO8rJh2R)
 
-      Cool experiences I have tried
+      Cool experiences
+      - Conference
+
+      ![Con1](images/personal/conference_1.jpg "Con1"){:width="250px"}
+      ![Con2](images/personal/conference_2.jpg "Con2"){:width="250px"}
+      ![Con3](images/personal/conference_3.jpg "Con3"){:width="250px"}
+
       - Free diving
 
       ![Diving1](images/personal/diving.jpg "Diving1"){:width="250px"}
       ![Diving2](images/personal/diving2.jpg "Diving2"){:width="250px"}
 
       - Surfing
-      - Sports climing
 
-      ![Biking](images/personal/bike.jpg "Biking"){:width="250px"}
+      ![surfing](images/personal/surfing.jpg "Surfing"){:width="250px"}
       
       
 
