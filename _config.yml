@@ -73,12 +73,12 @@ content:
     content:
       - layout: top-middle
         title: Paired-point lifting
-        link: github.com/Fusroda-h/ppl
+        link: sites.google.com/ncsu.edu/fbdf/
         # link_text: Project Website
         additional_links:
-          - title:  Fusroda-h/ppl
-            icon: fab fa-github
-            url: github.com/Fusroda-h/ppl
+          - title:  Enhancing Food Bank Distribution Efficiency through Deep learning-based Food Bank Demand Forecasting
+            icon: fab fa-google-site
+            url: https://sites.google.com/ncsu.edu/fbdf/
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
@@ -90,13 +90,14 @@ content:
           We also provide a sample scene built to examine the privacy-preserving performance.
           The code utilize <mark>PoseLib</mark>, <mark>COLMAP</mark> library.
 
-    content:
       - layout: top-middle
         title: NCSU-Intensive Data Mining Program (Food bank)
+        link: github.com/Fusroda-h/ppl
         # link_text: Project Website
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        additional_links:
+          - title:  Fusroda-h/ppl
+            icon: fab fa-github
+            url: github.com/Fusroda-h/ppl
         quote: >
           Food bank demand forecasting aims to forecast how much food assistance will be needed during a specific period and in region.
         description: | # this will include new lines to allow paragraphs
