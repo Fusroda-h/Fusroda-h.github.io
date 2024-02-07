@@ -90,6 +90,24 @@ content:
           We also provide a sample scene built to examine the privacy-preserving performance.
           The code utilize <mark>PoseLib</mark>, <mark>COLMAP</mark> library.
 
+    content:
+      - layout: top-middle
+        title: NCSU-Intensive Data Mining Program (Food bank)
+        # link_text: Project Website
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Food bank demand forecasting aims to forecast how much food assistance will be needed during a specific period and in region.
+        description: | # this will include new lines to allow paragraphs
+          Food bank demand forecasting is crucial for enhancing resource efficiency, enabling food banks to secure the right amount of food effectively. 
+          [Objectives]
+          Develop a deep learning model to forecast regional food bank demand by leveraging historical data from food banks. Analyze demand patterns to enhance understanding and optimize resource allocation within the food bank system.
+          [Results]
+          We employed time series deep learning models, specifically LGBM and LSTM, to achieve notable predictive accuracy despite challenging conditions characterized by limited quantity and high noise. Our analysis of demand forecasting by region revealed that the majority of regions exhibited predictability, with the exception of areas lacking cyclicality in demand variability. 
+          ![Result](images/LGBM_foodbank_ncsu.jpg "Result"){:width="250px"}
+
+
 
   - title: Publication # Title for the section
     layout: list # Type of content section (list/text)
