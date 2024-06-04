@@ -9,7 +9,6 @@ version: 2
 name: Chunghwan Lee
 title: Researcher, Hanyang University (Seoul, Korea)
 email: jhlee612@hanyang.ac.kr
-website: www.github.com/Fusroda-h/
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -48,7 +47,7 @@ orcid_username: 0009-0000-5617-1966
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Chunghwan and I'm a graduate student working toward a master's degree at [Hy-vision](https://sites.google.com/view/hyvision) Lab from Hanyang Universitiy([HYU](http://electronic.hanyang.ac.kr/eng/main/index.php)).
+  Hi, my name's Chunghwan and I'm a researcher who graduated with a master's degree from the [Hy-vision](https://sites.google.com/view/hyvision) Lab at Hanyang Universitiy([HYU](http://electronic.hanyang.ac.kr/eng/main/index.php)).
 
   My research interests are "Reconstructing 3D scenes", "Visual localization", "Privacy preservation".
   More information on [CV](documents/cv.pdf)
