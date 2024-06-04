@@ -61,7 +61,7 @@ content:
     content:
       - layout: left
         title: Hanyang University, Seoul, Korea
-        caption: 2015 - 2022 / 2022 - Present
+        caption: 2015 - 2022 / 2022 - 2023
         sub_title: BSc Electronic Engineering / MS Electronic Engineering
         description: | # this will include new lines to allow paragraphs
           During my academic journey at HY-Vision Lab, I learn mathmetical analysis for camera localization and honed my coding skills through various Python and C++ project.
@@ -113,6 +113,19 @@ content:
   - title: Publication # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+        title: Efficient Privacy-Preserving Visual Localization Using 3D Ray Clouds
+        # link: https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Paired-Point_Lifting_for_Enhanced_Privacy-Preserving_Visual_Localization_CVPR_2023_paper.pdf
+        # link_text: PPL
+        # sub_title: Senior Network System Administrator
+        caption: International
+        # quote: >
+        #   International
+        description: | # this will include new lines to allow paragraphs
+            Heejoon Moon, **Chunghwan Lee**, Je Hyeong Hong
+
+            *Proceedings of , The IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024.*
+
       - layout: top-middle
         title: Paired-Point Lifting for Enhanced Privacy-Preserving Visual Localization
         # link: https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Paired-Point_Lifting_for_Enhanced_Privacy-Preserving_Visual_Localization_CVPR_2023_paper.pdf
