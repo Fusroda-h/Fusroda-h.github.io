@@ -1,213 +1,157 @@
-# Site
+# =========================================
+# Site Info
+# =========================================
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
-
-# Content configuration version
 version: 2
 
-# Personal info
+# =========================================
+# Personal Info
+# =========================================
 name: Chunghwan Lee
 title: Researcher, Hanyang University (Seoul, Korea)
 email: jhlee612@hanyang.ac.kr
 
-# Dark Mode (true/false/never)
+# =========================================
+# Display Settings
+# =========================================
 darkmode: false
 
-# Social links
-# twitter_username: facespics
-github_username:  Fusroda-h
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
+# =========================================
+# Social Links
+# =========================================
+github_username: Fusroda-h
 instagram_username: zzung_jh
 linkedin_username: Chunghwan Lee
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
 orcid_username: 0009-0000-5617-1966
 
-# Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
+# =========================================
 # About Section
-# about_title: About Me
+# =========================================
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Chunghwan and I'm a researcher who graduated with a master's degree from the [Hy-vision](https://sites.google.com/view/hyvision) Lab at Hanyang Universitiy([HYU](http://electronic.hanyang.ac.kr/eng/main/index.php)).
+about_content: |
+  Hi, my name's Chunghwan and I'm a researcher who graduated with a master's degree from the [Hy-vision](https://sites.google.com/view/hyvision) Lab at Hanyang University ([HYU](http://electronic.hanyang.ac.kr/eng/main/index.php)).
 
-  My research interests are "Reconstructing 3D scenes", "Visual localization", "Privacy preservation".
-  More information on [CV](documents/cv.pdf)
+  My research interests are **3D scene reconstruction**, **visual localization**, and **privacy preservation**.  
+  More information: [CV](documents/cv.pdf)
 
   I am most skilled in: <mark>Python</mark>, <mark>C/C++</mark>, and <mark>Bowling</mark>
 
+# =========================================
+# Content
+# =========================================
 content:
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: Hanyang University, Seoul, Korea
-        caption: 2015 - 2022 / 2022 - 2023
+        caption: 2015–2022 / 2022–2023
         sub_title: BSc Electronic Engineering / MS Electronic Engineering
-        description: | # this will include new lines to allow paragraphs
-          During my academic journey at HY-Vision Lab, I learn mathmetical analysis for camera localization and honed my coding skills through various Python and C++ project.
-          I was recognized for my hard work, and I actively collaborated with fellow researchers on projects, demonstrating strong teamwork.
+        description: |
+          During my academic journey at HY-Vision Lab, I focused on mathematical analysis for camera localization and honed my coding skills through various Python and C++ projects.
+          I actively collaborated with fellow researchers on projects, demonstrating strong teamwork.
 
-  
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
-        title: Paired-point lifting
-        link: github.com/Fusroda-h/ppl
-        # link_text: Project Website
+        title: Paired-Point Lifting
+        link: https://github.com/Fusroda-h/ppl
         additional_links:
-          - title:  Fusroda-h/ppl
+          - title: Fusroda-h/ppl
             icon: fab fa-github
-            url: github.com/Fusroda-h/ppl
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+            url: https://github.com/Fusroda-h/ppl
         quote: >
-          This codes provides pipeline for localization and query reconstruction from point/line-based maps.
-        description: | # this will include new lines to allow paragraphs
-          The project provides end-to-end evaluation pipeline for the paired-point lifting method implementing a generation of a line cloud and recovering points from lines.
-          Also this provides the codes calculating the relocalization accuracy and recoveries of a scene on query views.
-          We also provide a sample scene built to examine the privacy-preserving performance.
-          The code utilize <mark>PoseLib</mark>, <mark>COLMAP</mark> library.
+          A pipeline for localization and query reconstruction from point/line-based maps.
+        description: |
+          Provides an end-to-end evaluation pipeline for paired-point lifting: generating line clouds and recovering points from lines.
+          Includes code for relocalization accuracy and query view reconstruction, plus a sample scene for privacy-preserving evaluation.
+          Built with <mark>PoseLib</mark> and <mark>COLMAP</mark>.
 
       - layout: top-middle
-        title: NCSU-Intensive Data Mining Program (Food bank)
-        link: sites.google.com/ncsu.edu/fbdf/projects
-        # link_text: Project Website
+        title: NCSU Intensive Data Mining Program (Food Bank)
+        link: https://sites.google.com/ncsu.edu/fbdf/projects
         additional_links:
-          - title:  Enhancing Food Bank Distribution Efficiency through Deep learning-based Food Bank Demand Forecasting
+          - title: Project Website
             icon: fas fa-globe
             url: https://sites.google.com/ncsu.edu/fbdf/projects
         quote: >
-          Food bank demand forecasting aims to forecast how much food assistance will be needed during a specific period and in region.
-        description: | # this will include new lines to allow paragraphs
-          Food bank demand forecasting is crucial for enhancing resource efficiency, enabling food banks to secure the right amount of food effectively. 
-          [Objectives]
-          Develop a deep learning model to forecast regional food bank demand by leveraging historical data from food banks. Analyze demand patterns to enhance understanding and optimize resource allocation within the food bank system.
-          [Results]
-          We employed time series deep learning models, specifically LGBM and LSTM, to achieve notable predictive accuracy despite challenging conditions characterized by limited quantity and high noise. Our analysis of demand forecasting by region revealed that the majority of regions exhibited predictability, with the exception of areas lacking cyclicality in demand variability. 
+          Deep learning for food bank demand forecasting.
+        description: |
+          Developed time series models (LGBM, LSTM) to forecast regional food bank demand.
+          Achieved strong predictive accuracy despite data limitations and noise.
           ![Result](images/LGBM_foodbank_ncsu.jpg "Result"){:width="250px"}
 
-
-
-  - title: Publication # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Publications
+    layout: list
     content:
       - layout: top-middle
         title: Efficient Privacy-Preserving Visual Localization Using 3D Ray Clouds
-        # link: https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Paired-Point_Lifting_for_Enhanced_Privacy-Preserving_Visual_Localization_CVPR_2023_paper.pdf
-        # link_text: PPL
-        # sub_title: Senior Network System Administrator
         caption: International
-        # quote: >
-        #   International
-        description: | # this will include new lines to allow paragraphs
-            Heejoon Moon, **Chunghwan Lee**, Je Hyeong Hong
-
-            *Proceedings of , The IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2024.*
+        description: |
+          Heejoon Moon, **Chunghwan Lee**, Je Hyeong Hong  
+          *IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2024.*
 
       - layout: top-middle
         title: Paired-Point Lifting for Enhanced Privacy-Preserving Visual Localization
-        # link: https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Paired-Point_Lifting_for_Enhanced_Privacy-Preserving_Visual_Localization_CVPR_2023_paper.pdf
-        # link_text: PPL
-        # sub_title: Senior Network System Administrator
         caption: International
-        # quote: >
-        #   International
-        description: | # this will include new lines to allow paragraphs
-            **Chunghwan Lee**, Jaihoon Kim, Chanhyuk Yun, Je Hyeong Hong
-
-            *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023.*
+        description: |
+          **Chunghwan Lee**, Jaihoon Kim, Chanhyuk Yun, Je Hyeong Hong  
+          *IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2023.*
 
       - layout: top-middle
         title: Deepfake Detection Using Supervised Temporal Feature Extraction Model and LSTM
         caption: Domestic
-        # quote: >
-        #   Domestic
-        description: | # this will include new lines to allow paragraphs
-            **Chunghwan Lee**, Jaihoon Kim, Kijung Yoon
-
-            *The Korean Institute of Broadcast and Media Engineers Fall Conference. 2022.*
+        description: |
+          **Chunghwan Lee**, Jaihoon Kim, Kijung Yoon  
+          *The Korean Institute of Broadcast and Media Engineers Fall Conference, 2022.*
 
       - layout: top-middle
         title: Weather Classification and Image Restoration Algorithm Attentive to Weather Conditions in Autonomous Vehicles
         caption: Domestic
-        description: | # this will include new lines to allow paragraphs
-            Jaihoon Kim, **Chunghwan Lee**, Sangmin Kim, Jechang Jeong
-
-            *The Korean Institute of Broadcast and Media Engineers Fall Conference. 2021.*
-
-
+        description: |
+          Jaihoon Kim, **Chunghwan Lee**, Sangmin Kim, Jechang Jeong  
+          *The Korean Institute of Broadcast and Media Engineers Fall Conference, 2021.*
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in 3D computer vision some of my other interests and hobbies are:
+    content: |
+      Besides 3D computer vision, I enjoy:
       - Working out
       - Bowling (I have 3 custom bowling balls!)
-
       ![Bowling](images/personal/bowling1.jpg "Bowling1"){:width="250px"}
-      ![Bowling2](images/personal/bowling2.jpg "Bowling2"){:width="250px"}
-
+      ![Bowling](images/personal/bowling2.jpg "Bowling2"){:width="250px"}
       - Skiing / Snowboarding
-
       ![Skiing](images/personal/skiing.jpg "Skiing"){:width="250px"}
-
       - [Poppin dance](https://youtu.be/GqwMzhZMgqU?si=i5qMRqiGeO8rJh2R)
-
-      Cool experiences
       - Conference (CVPR23, Vancouver, Canada)
-
       ![Con1](images/personal/conference_1.png "Con1"){:width="250px"}
       ![Con2](images/personal/conference_2.jpg "Con2"){:width="250px"}
       ![Con3](images/personal/conference_3.jpg "Con3"){:width="250px"}
-
       - Free diving
-
-      ![Diving1](images/personal/diving.jpg "Diving1"){:width="250px"}
-      ![Diving2](images/personal/diving2.jpg "Diving2"){:width="250px"}
-
+      ![Diving](images/personal/diving.jpg "Diving"){:width="250px"}
+      ![Diving](images/personal/diving2.jpg "Diving2"){:width="250px"}
       - Surfing
+      ![Surfing](images/personal/surfing.jpg "Surfing"){:width="250px"}
 
-      ![surfing](images/personal/surfing.jpg "Surfing"){:width="250px"}
-      
-      
-
+# =========================================
 # Footer
+# =========================================
 footer_show_references: true
-# references_title: References on request (Override references text)
 
-# Build settings
+# =========================================
+# Theme & Build Settings
+# =========================================
 remote_theme: sproogen/resume-theme
-
 sass:
   sass_dir: _sass
   style: compressed
-
 plugins:
- - jekyll-seo-tag
- - jekyll-analytics
+  - jekyll-seo-tag
+  - jekyll-analytics
 
 jekyll_analytics:
-  GoogleAnalytics:          # Add, if you want to track with Google Analytics
-    id: G-T83NVQBC4L        # Required - replace with your tracking id
-    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
+  GoogleAnalytics:
+    id: G-T83NVQBC4L
+    anonymizeIp: false
