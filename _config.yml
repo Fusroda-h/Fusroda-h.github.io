@@ -91,35 +91,29 @@ content:
           ![Result](images/LGBM_foodbank_ncsu.jpg "Result"){:width="250px"}
 
   - title: Publications
-    layout: list
-    content:
-      - layout: top-middle
-        title: Efficient Privacy-Preserving Visual Localization Using 3D Ray Clouds
-        caption: International
-        description: |
-          Heejoon Moon, **Chunghwan Lee**, Je Hyeong Hong  
-          *IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2024.*
+      layout: text
+      content: |
+      ### 2024
+      **Efficient Privacy-Preserving Visual Localization Using 3D Ray Clouds**  
+      *Heejoon Moon, **Chunghwan Lee**, Je Hyeong Hong*  
+      *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024.*  
+      [PDF](#) | [Code](#)
 
-      - layout: top-middle
-        title: Paired-Point Lifting for Enhanced Privacy-Preserving Visual Localization
-        caption: International
-        description: |
-          **Chunghwan Lee**, Jaihoon Kim, Chanhyuk Yun, Je Hyeong Hong  
-          *IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2023.*
+      ### 2023
+      **Paired-Point Lifting for Enhanced Privacy-Preserving Visual Localization**  
+      ***Chunghwan Lee**, Jaihoon Kim, Chanhyuk Yun, Je Hyeong Hong*  
+      *IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023.*  
+      [PDF](#) | [Code](#)
 
-      - layout: top-middle
-        title: Deepfake Detection Using Supervised Temporal Feature Extraction Model and LSTM
-        caption: Domestic
-        description: |
-          **Chunghwan Lee**, Jaihoon Kim, Kijung Yoon  
-          *The Korean Institute of Broadcast and Media Engineers Fall Conference, 2022.*
+      ### 2022
+      **Deepfake Detection Using Supervised Temporal Feature Extraction Model and LSTM**  
+      ***Chunghwan Lee**, Jaihoon Kim, Kijung Yoon*  
+      *The Korean Institute of Broadcast and Media Engineers Fall Conference, 2022.*  
 
-      - layout: top-middle
-        title: Weather Classification and Image Restoration Algorithm Attentive to Weather Conditions in Autonomous Vehicles
-        caption: Domestic
-        description: |
-          Jaihoon Kim, **Chunghwan Lee**, Sangmin Kim, Jechang Jeong  
-          *The Korean Institute of Broadcast and Media Engineers Fall Conference, 2021.*
+      ### 2021
+      **Weather Classification and Image Restoration Algorithm Attentive to Weather Conditions in Autonomous Vehicles**  
+      *Jaihoon Kim, **Chunghwan Lee**, Sangmin Kim, Jechang Jeong*  
+      *The Korean Institute of Broadcast and Media Engineers Fall Conference, 2021.*  
 
   - title: A Little More About Me
     layout: text
