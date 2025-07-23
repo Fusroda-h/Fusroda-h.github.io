@@ -9,8 +9,8 @@ version: 2
 # Personal Info
 # =========================================
 name: Chunghwan Lee
-title: Researcher, Hanyang University (Seoul, Korea)
-email: jhlee612@hanyang.ac.kr
+title: Researcher, NUS (Singapore)
+email: e1583558@u.nus.edu
 
 # =========================================
 # Display Settings
@@ -30,9 +30,9 @@ orcid_username: 0009-0000-5617-1966
 # =========================================
 about_profile_image: images/profile.jpg
 about_content: |
-  Hi, my name's Chunghwan and I'm a researcher who graduated with a master's degree from the [Hy-vision](https://sites.google.com/view/hyvision) Lab at Hanyang University ([HYU](http://electronic.hanyang.ac.kr/eng/main/index.php)).
+  Hi, my name's Chunghwan and I'm currently a **Ph.D. student at the National University of Singapore (NUS)** and a researcher who graduated with a master's degree from the [Hanyang SAIL Lab](https://sites.google.com/view/hyvision) at Hanyang University ([HYU](http://electronic.hanyang.ac.kr/eng/main/index.php)).
 
-  My research interests are **3D scene reconstruction**, **visual localization**, and **privacy preservation**.  
+  My research interests are **3D scene reconstruction**, **visual localization**, and **3D rendering**.
   More information: [CV](documents/cv.pdf)
 
   I am most skilled in: <mark>Python</mark>, <mark>C/C++</mark>, and <mark>Bowling</mark>
@@ -45,8 +45,15 @@ content:
     layout: list
     content:
       - layout: left
+        title: National University of Singapore (NUS)
+        caption: 2024 - Present
+        sub_title: Ph.D. in Computer Science
+        description: |
+          Pursuing research in **3D computer vision**, focusing on **neural scene representation**, **privacy-preserving mapping**, and **visual localization**.
+
+      - layout: left
         title: Hanyang University, Seoul, Korea
-        caption: 2015–2022 / 2022–2023
+        caption: 2015 - 2022 / 2022 - 2023
         sub_title: BSc Electronic Engineering / MS Electronic Engineering
         description: |
           During my academic journey at HY-Vision Lab, I focused on mathematical analysis for camera localization and honed my coding skills through various Python and C++ projects.
