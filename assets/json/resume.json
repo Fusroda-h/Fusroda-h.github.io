@@ -37,7 +37,7 @@
       "name": "NAVER LABS",
       "position": "Research Intern, Spatial AI Team",
       "url": "https://www.naverlabs.com/",
-      "location": "Seongnam, Gyeonggi-do, Korea",
+      "location": "Seongnam, Korea",
       "startDate": "2024-03",
       "summary": "Research internship on generalizable 3D Gaussian splatting from unposed sparse-view images.",
       "highlights": [
@@ -154,7 +154,10 @@
         "Somi Jeong"
       ],
       "summary": "Sparse-view 3D reconstruction with unknown camera poses using geometric priors for refinement."
-    },
+    }
+  ],
+
+  "patents": [
     {
       "name": "Localization method and apparatus using line cloud map data, line cloud map data generation method (US Patent)",
       "publisher": "USPTO",

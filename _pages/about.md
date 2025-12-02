@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Live your day!</p>
+    <p>Small steps, every day.</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -20,7 +20,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
@@ -30,15 +30,15 @@ Hi, my name is **Chunghwan Lee**.
 I am a researcher in 3D computer vision.  
 My interests include **3D scene reconstruction**, **visual localization**, and **neural fields in 3D visual computing**.
 
-You can find more details in my [CV](assets/documents/cv.pdf).
+You can find more details in my [CV](assets/pdf/cv.pdf).
 
 ---
 
 ### Research interests
 
-- Reconstructing 3D scenes  
-- Visual localization  
-- Neural fields in 3D visual computing  
+- Reconstructing 3D scenes
+- Visual localization
+- Neural fields in 3D visual computing
 
 ---
 
@@ -53,12 +53,12 @@ I am most comfortable with
 
 Outside of research, some of my interests and hobbies are:
 
-- Bowling  
-- Skiing / Snowboarding  
-- Poppin dance ([link](https://youtu.be/GqwMzhZMgqU?si=i5qMRqiGeO8rJh2R))  
-- Free diving  
-- Surfing  
-- Sport climbing  
+- Bowling
+- Skiing / Snowboarding
+- Poppin dance ([link](https://youtu.be/GqwMzhZMgqU?si=i5qMRqiGeO8rJh2R))
+- Free diving
+- Surfing
+- Sport climbing
 
 <!--
 ![Skiing](assets/img/personal/skiing.jpg "Skiing"){:width="250px"}
