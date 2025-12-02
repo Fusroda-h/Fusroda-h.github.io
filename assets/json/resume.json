@@ -123,12 +123,7 @@
       "publisher": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "releaseDate": "2023",
       "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Paired-Point_Lifting_for_Enhanced_Privacy-Preserving_Visual_Localization_CVPR_2023_paper.pdf",
-      "authors": [
-        "Chunghwan Lee",
-        "Jaihoon Kim",
-        "Chanhyuk Yun",
-        "Je Hyeong Hong"
-      ],
+      "authors": ["Chunghwan Lee", "Jaihoon Kim", "Chanhyuk Yun", "Je Hyeong Hong"],
       "summary": "Privacy-preserving visual localization using paired-point lifting and line cloud representations."
     },
     {
@@ -136,11 +131,7 @@
       "publisher": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
       "releaseDate": "2024",
       "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Moon_Efficient_Privacy-Preserving_Visual_Localization_Using_3D_Ray_Clouds_CVPR_2024_paper.pdf",
-      "authors": [
-        "Heejoon Moon",
-        "Chunghwan Lee",
-        "Je Hyeong Hong"
-      ],
+      "authors": ["Heejoon Moon", "Chunghwan Lee", "Je Hyeong Hong"],
       "summary": "Visual localization framework using 3D ray clouds for efficient privacy preservation."
     },
     {
@@ -148,11 +139,7 @@
       "publisher": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshop ULTRRA",
       "releaseDate": "2025",
       "url": "https://sites.google.com/view/ultrra-wacv-2025/publications?authuser=0#h.ftmbncd5b7wp",
-      "authors": [
-        "Chunghwan Lee",
-        "Deokhwa Kim",
-        "Somi Jeong"
-      ],
+      "authors": ["Chunghwan Lee", "Deokhwa Kim", "Somi Jeong"],
       "summary": "Sparse-view 3D reconstruction with unknown camera poses using geometric priors for refinement."
     }
   ],
@@ -163,11 +150,7 @@
       "publisher": "USPTO",
       "releaseDate": "2024",
       "url": "",
-      "authors": [
-        "Je Hyeong Hong",
-        "Chunghwan Lee",
-        "Chanhyuk Yun"
-      ],
+      "authors": ["Je Hyeong Hong", "Chunghwan Lee", "Chanhyuk Yun"],
       "summary": "US Patent No. 18/417,235 (applicant: Hanyang University)."
     },
     {
@@ -175,11 +158,7 @@
       "publisher": "KIPO",
       "releaseDate": "2023",
       "url": "",
-      "authors": [
-        "Je Hyeong Hong",
-        "Chunghwan Lee",
-        "Chanhyuk Yun"
-      ],
+      "authors": ["Je Hyeong Hong", "Chunghwan Lee", "Chanhyuk Yun"],
       "summary": "Korean Patent No. 10-2023-0008666 (applicant: Hanyang University)."
     }
   ],
@@ -195,12 +174,7 @@
         "Used DUSt3R and MASt3R to estimate geometry and guide 3D Gaussian splatting.",
         "Focused on generalization across scenes and viewpoints."
       ],
-      "keywords": [
-        "3D Gaussian Splatting",
-        "Sparse-view Reconstruction",
-        "Unposed Images",
-        "Generalizable Models"
-      ]
+      "keywords": ["3D Gaussian Splatting", "Sparse-view Reconstruction", "Unposed Images", "Generalizable Models"]
     },
     {
       "name": "Enhancing Privacy-Preserving Visual Localization",
@@ -214,12 +188,7 @@
         "Proposed Paired-Point Lifting (PPL) to generate privacy-preserving line cloud maps.",
         "Demonstrated robustness against scene recovery attacks while maintaining pose accuracy."
       ],
-      "keywords": [
-        "Visual Localization",
-        "Privacy-Preserving Mapping",
-        "Line Clouds",
-        "3D Vision"
-      ]
+      "keywords": ["Visual Localization", "Privacy-Preserving Mapping", "Line Clouds", "3D Vision"]
     },
     {
       "name": "Deep Learning-based Sketched Face Recognition",
@@ -228,16 +197,8 @@
       "startDate": "2021-10",
       "endDate": "2022-02",
       "description": "Recognizing faces from human sketches using deep learning.",
-      "highlights": [
-        "Fine-tuned ArcFace for sketched face recognition.",
-        "Augmented sketch data using CycleGAN for improved robustness."
-      ],
-      "keywords": [
-        "Face Recognition",
-        "Sketch",
-        "ArcFace",
-        "CycleGAN"
-      ]
+      "highlights": ["Fine-tuned ArcFace for sketched face recognition.", "Augmented sketch data using CycleGAN for improved robustness."],
+      "keywords": ["Face Recognition", "Sketch", "ArcFace", "CycleGAN"]
     },
     {
       "name": "Deepfake Video Detection",
@@ -250,11 +211,7 @@
         "Trained models to capture abrupt temporal features indicative of manipulation.",
         "Used PCA-based loss to emphasize abnormal variations."
       ],
-      "keywords": [
-        "Deepfake Detection",
-        "Video Analysis",
-        "Temporal Features"
-      ]
+      "keywords": ["Deepfake Detection", "Video Analysis", "Temporal Features"]
     },
     {
       "name": "Image-based Weather Classification and Restoration",
@@ -263,14 +220,8 @@
       "startDate": "2020-06",
       "endDate": "2020-10",
       "description": "All-in-one model for classification and restoration under adverse weather conditions.",
-      "highlights": [
-        "Designed a model that handles classification and reconstruction for rain, snow, and haze."
-      ],
-      "keywords": [
-        "Image Restoration",
-        "Weather Degradation",
-        "Classification"
-      ]
+      "highlights": ["Designed a model that handles classification and reconstruction for rain, snow, and haze."],
+      "keywords": ["Image Restoration", "Weather Degradation", "Classification"]
     }
   ],
 
@@ -311,39 +262,19 @@
     {
       "name": "Programming",
       "level": "",
-      "keywords": [
-        "Python",
-        "OpenCV",
-        "Open3D",
-        "COLMAP",
-        "C/C++",
-        "Java",
-        "MATLAB",
-        "CUDA"
-      ]
+      "keywords": ["Python", "OpenCV", "Open3D", "COLMAP", "C/C++", "Java", "MATLAB", "CUDA"]
     },
     {
       "name": "Deep Learning Frameworks",
       "level": "",
-      "keywords": [
-        "PyTorch",
-        "Keras",
-        "TensorFlow"
-      ]
+      "keywords": ["PyTorch", "Keras", "TensorFlow"]
     }
   ],
 
   "interests": [
     {
       "name": "Hobbies",
-      "keywords": [
-        "Bowling",
-        "Skiing / Snowboarding",
-        "Poppin dance",
-        "Free diving",
-        "Surfing",
-        "Sport climbing"
-      ]
+      "keywords": ["Bowling", "Skiing / Snowboarding", "Poppin dance", "Free diving", "Surfing", "Sport climbing"]
     }
   ],
 
@@ -353,11 +284,7 @@
       "position": "Conference Reviewer",
       "startDate": "2022",
       "summary": "Reviewed papers for major computer vision conferences.",
-      "highlights": [
-        "Paper reviewer for ICIP 2022–2023.",
-        "Paper reviewer for WACV 2023–2024.",
-        "Paper reviewer for CVPR 2024."
-      ]
+      "highlights": ["Paper reviewer for ICIP 2022–2023.", "Paper reviewer for WACV 2023–2024.", "Paper reviewer for CVPR 2024."]
     }
   ]
 }
