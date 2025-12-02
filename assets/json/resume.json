@@ -1,200 +1,360 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Chunghwan Lee",
+    "label": "Researcher in 3D Computer Vision",
+    "email": "chunghwan@u.nus.edu",
+    "phone": "+65-8964-0297",
+    "url": "https://fusroda-h.github.io/",
+    "summary": "I work on 3D scene reconstruction, visual localization, and privacy-preserving 3D mapping using neural representations.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "27 Prince George's Park",
+      "postalCode": "118425",
+      "city": "Singapore",
+      "countryCode": "SG",
+      "region": "West"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "Fusroda-h",
+        "url": "https://github.com/Fusroda-h"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "chunghwan-lee",
+        "url": "https://www.linkedin.com/in/chunghwan-lee-a6076727b/"
+      },
+      {
+        "network": "Website",
+        "username": "Chunghwan",
+        "url": "https://fusroda-h.github.io/"
       }
     ]
   },
+
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "NAVER LABS",
+      "position": "Research Intern, Spatial AI Team",
+      "url": "https://www.naverlabs.com/",
+      "location": "Seongnam, Gyeonggi-do, Korea",
+      "startDate": "2024-03",
+      "summary": "Research internship on generalizable 3D Gaussian splatting from unposed sparse-view images.",
+      "highlights": [
+        "Developing a generalizable feed-forward 3D Gaussian splatting model for 3D scene reconstruction from unposed sparse-view (paired-view) images using DUSt3R and MASt3R."
+      ]
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Hanyang SAIL Lab (HY-Vision Lab), Hanyang University",
+      "position": "Graduate Researcher",
+      "url": "https://sail.hanyang.ac.kr/",
+      "location": "Seoul, Korea",
+      "startDate": "2022-03",
+      "endDate": "2024-02",
+      "summary": "Graduate research on privacy-preserving visual localization and 3D line cloud representations.",
+      "highlights": [
+        "Developed a privacy-preserving 3D line cloud generation method that draws lines by pairing two points, named Paired-Point Lifting (PPL).",
+        "Demonstrated that PPL conceals scene details while maintaining camera pose re-localization accuracy."
+      ]
+    },
+    {
+      "name": "NIAI Lab, Hanyang University",
+      "position": "Undergraduate Researcher",
+      "url": "https://yoonlab.hanyang.ac.kr/people/",
+      "location": "Seoul, Korea",
+      "startDate": "2021-02",
+      "endDate": "2021-09",
+      "summary": "Deepfake video detection using temporal feature analysis.",
+      "highlights": [
+        "Developed a classification model to discern deepfake videos by training the model to extract abrupt temporal features with a PCA-based loss."
+      ]
+    },
+    {
+      "name": "ICSP Lab, Hanyang University",
+      "position": "Undergraduate Researcher",
+      "location": "Seoul, Korea",
+      "startDate": "2020-06",
+      "endDate": "2020-10",
+      "summary": "Image-based weather classification and restoration.",
+      "highlights": [
+        "Devised a one-for-all model that performs both weather classification and reconstruction under adverse weather conditions such as rain, snow, and haze."
+      ]
     }
   ],
+
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "National University of Singapore (NUS)",
+      "url": "https://www.nus.edu.sg",
+      "area": "Computer Science",
+      "studyType": "Ph.D",
+      "startDate": "2025-08",
+      "advisor": "Prof. Gim Hee Lee",
+      "location": "Singapore, Singapore"
+    },
+    {
+      "institution": "Hanyang University (HYU)",
+      "url": "https://www.hanyang.ac.kr/web/eng/home",
+      "area": "Electronic Engineering",
+      "studyType": "M.S.",
+      "startDate": "2022-03",
+      "endDate": "2024-02",
+      "score": "GPA: 4.31/4.5",
+      "thesis": "Paired-Point Lifting for Privacy-Preserving Visual Localization",
+      "advisor": "Prof. Je Hyeong Hong",
+      "location": "Seoul, Korea"
+    },
+    {
+      "institution": "Hanyang University (HYU)",
+      "area": "Electronic Engineering",
+      "studyType": "B.S.",
+      "startDate": "2015-03",
+      "endDate": "2022-02",
+      "score": "GPA: 3.82/4.5",
+      "thesis": "Deepfake Detection Using Supervised Temporal Feature Extraction Model and LSTM",
+      "advisor": "Prof. Kijung Yoon",
+      "location": "Seoul, Korea"
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
+
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Paired-Point Lifting for Enhanced Privacy-Preserving Visual Localization",
+      "publisher": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "releaseDate": "2023",
+      "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Paired-Point_Lifting_for_Enhanced_Privacy-Preserving_Visual_Localization_CVPR_2023_paper.pdf",
+      "authors": [
+        "Chunghwan Lee",
+        "Jaihoon Kim",
+        "Chanhyuk Yun",
+        "Je Hyeong Hong"
+      ],
+      "summary": "Privacy-preserving visual localization using paired-point lifting and line cloud representations."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Efficient Privacy-Preserving Visual Localization Using 3D Ray Clouds",
+      "publisher": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+      "releaseDate": "2024",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/papers/Moon_Efficient_Privacy-Preserving_Visual_Localization_Using_3D_Ray_Clouds_CVPR_2024_paper.pdf",
+      "authors": [
+        "Heejoon Moon",
+        "Chunghwan Lee",
+        "Je Hyeong Hong"
+      ],
+      "summary": "Visual localization framework using 3D ray clouds for efficient privacy preservation."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Enhancing Sparse-View 3D Reconstruction with Unknown Poses via Geometric Prior Guided Refinement",
+      "publisher": "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshop ULTRRA",
+      "releaseDate": "2025",
+      "url": "https://sites.google.com/view/ultrra-wacv-2025/publications?authuser=0#h.ftmbncd5b7wp",
+      "authors": [
+        "Chunghwan Lee",
+        "Deokhwa Kim",
+        "Somi Jeong"
+      ],
+      "summary": "Sparse-view 3D reconstruction with unknown camera poses using geometric priors for refinement."
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Localization method and apparatus using line cloud map data, line cloud map data generation method (US Patent)",
+      "publisher": "USPTO",
+      "releaseDate": "2024",
+      "url": "",
+      "authors": [
+        "Je Hyeong Hong",
+        "Chunghwan Lee",
+        "Chanhyuk Yun"
+      ],
+      "summary": "US Patent No. 18/417,235 (applicant: Hanyang University)."
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Localization method and apparatus using line cloud map data, line cloud map data generation method (Korean Patent)",
+      "publisher": "KIPO",
+      "releaseDate": "2023",
+      "url": "",
+      "authors": [
+        "Je Hyeong Hong",
+        "Chunghwan Lee",
+        "Chanhyuk Yun"
+      ],
+      "summary": "Korean Patent No. 10-2023-0008666 (applicant: Hanyang University)."
     }
   ],
+
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Generalizable 3D Gaussian Splatting with Unposed Images",
+      "entity": "NAVER LABS",
+      "type": "research",
+      "startDate": "2024-03",
+      "description": "Developing a feed-forward 3D Gaussian splatting model for 3D reconstruction from unposed sparse-view images.",
+      "highlights": [
+        "Used DUSt3R and MASt3R to estimate geometry and guide 3D Gaussian splatting.",
+        "Focused on generalization across scenes and viewpoints."
+      ],
+      "keywords": [
+        "3D Gaussian Splatting",
+        "Sparse-view Reconstruction",
+        "Unposed Images",
+        "Generalizable Models"
+      ]
+    },
+    {
+      "name": "Enhancing Privacy-Preserving Visual Localization",
+      "entity": "Hanyang SAIL Lab (HY-Vision Lab)",
+      "type": "research",
+      "startDate": "2022-03",
+      "endDate": "2024-02",
+      "url": "https://github.com/Fusroda-h/ppl",
+      "description": "Privacy-preserving visual localization using paired-point lifting and 3D line clouds.",
+      "highlights": [
+        "Proposed Paired-Point Lifting (PPL) to generate privacy-preserving line cloud maps.",
+        "Demonstrated robustness against scene recovery attacks while maintaining pose accuracy."
+      ],
+      "keywords": [
+        "Visual Localization",
+        "Privacy-Preserving Mapping",
+        "Line Clouds",
+        "3D Vision"
+      ]
+    },
+    {
+      "name": "Deep Learning-based Sketched Face Recognition",
+      "entity": "Hanyang University",
+      "type": "research",
+      "startDate": "2021-10",
+      "endDate": "2022-02",
+      "description": "Recognizing faces from human sketches using deep learning.",
+      "highlights": [
+        "Fine-tuned ArcFace for sketched face recognition.",
+        "Augmented sketch data using CycleGAN for improved robustness."
+      ],
+      "keywords": [
+        "Face Recognition",
+        "Sketch",
+        "ArcFace",
+        "CycleGAN"
+      ]
+    },
+    {
+      "name": "Deepfake Video Detection",
+      "entity": "NIAI Lab, Hanyang University",
+      "type": "research",
+      "startDate": "2021-02",
+      "endDate": "2021-09",
+      "description": "Detecting deepfake videos via temporal feature analysis.",
+      "highlights": [
+        "Trained models to capture abrupt temporal features indicative of manipulation.",
+        "Used PCA-based loss to emphasize abnormal variations."
+      ],
+      "keywords": [
+        "Deepfake Detection",
+        "Video Analysis",
+        "Temporal Features"
+      ]
+    },
+    {
+      "name": "Image-based Weather Classification and Restoration",
+      "entity": "ICSP Lab, Hanyang University",
+      "type": "research",
+      "startDate": "2020-06",
+      "endDate": "2020-10",
+      "description": "All-in-one model for classification and restoration under adverse weather conditions.",
+      "highlights": [
+        "Designed a model that handles classification and reconstruction for rain, snow, and haze."
+      ],
+      "keywords": [
+        "Image Restoration",
+        "Weather Degradation",
+        "Classification"
+      ]
+    }
+  ],
+
+  "awards": [
+    {
+      "title": "Third Place, IC-PBL+ Graduate Championship 2022-2",
+      "date": "2022",
+      "awarder": "IC-PBL Teaching and Learning Center, Hanyang University",
+      "summary": ""
+    },
+    {
+      "title": "Excellence Award, Undergraduate Hanyang Academic",
+      "date": "2022",
+      "awarder": "Hanyang University",
+      "summary": ""
+    },
+    {
+      "title": "Excellence Award, The Korean Institute of Broadcast and Media Engineers Fall Conference 2021",
+      "date": "2021",
+      "awarder": "The Korean Institute of Broadcast and Media Engineers (KIBME)",
+      "summary": ""
+    },
+    {
+      "title": "HY-in Scholarships (Graduate)",
+      "date": "2022",
+      "awarder": "Hanyang University",
+      "summary": "Graduate scholarship, total amount approximately $12,200."
+    },
+    {
+      "title": "Dept. of Electronic Engineering Scholarship (Undergraduate)",
+      "date": "2015",
+      "awarder": "Hanyang University",
+      "summary": "Undergraduate scholarship, total amount approximately $14,500."
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": [
+        "Python",
+        "OpenCV",
+        "Open3D",
+        "COLMAP",
+        "C/C++",
+        "Java",
+        "MATLAB",
+        "CUDA"
+      ]
+    },
+    {
+      "name": "Deep Learning Frameworks",
+      "level": "",
+      "keywords": [
+        "PyTorch",
+        "Keras",
+        "TensorFlow"
+      ]
+    }
+  ],
+
+  "interests": [
+    {
+      "name": "Hobbies",
+      "keywords": [
+        "Bowling",
+        "Skiing / Snowboarding",
+        "Poppin dance",
+        "Free diving",
+        "Surfing",
+        "Sport climbing"
+      ]
+    }
+  ],
+
+  "volunteer": [
+    {
+      "organization": "IEEE / CVF and related communities",
+      "position": "Conference Reviewer",
+      "startDate": "2022",
+      "summary": "Reviewed papers for major computer vision conferences.",
+      "highlights": [
+        "Paper reviewer for ICIP 2022–2023.",
+        "Paper reviewer for WACV 2023–2024.",
+        "Paper reviewer for CVPR 2024."
+      ]
     }
   ]
 }
